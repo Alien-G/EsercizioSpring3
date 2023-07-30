@@ -1,0 +1,15 @@
+Exercise 1:
+
+Create an Entity called Ingredient
+Create a controller, service, repository
+Set up CRUD operations for this entity
+Drop your ingredient table in your db if it still exists to avoid issues/confusion!
+
+public class Ingredient {
+private Long id;
+private String name;
+private boolean isVegetarian;
+private boolean isVegan;
+private boolean isGlutenFree;
+private boolean isLactoseFree;
+}
